@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.financial-services {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text-1 {
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.last-word {
+  color: #4caf50;
+}
+
+.text-1 p {
+  opacity: 0.6;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.cards-1 {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  align-items: center;
+  margin: 40px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  flex-basis: 70%;
+  padding: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 200px;
+  text-align: left;
+  background-color: #dfe3df;
+  padding: 1rem;
+}
+
+.text p {
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text h2,
+.text .btn {
+  text-align: left;
+}
+
+.text .btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  margin-top: 55px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.part4 {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+.second-part {
+  background: url("images/fun-facts-bg.jpg") center/cover no-repeat;
+  color: whitesmoke;
+  padding: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about2-left {
+  flex-basis: 45%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about2-right {
+  flex-basis: 45%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.about2 .card {
+  padding: 3rem;
+  color: whitesmoke;
+  background-color: #333;
+  text-align: center;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.second-part .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.second-part .row .card {
+  margin-bottom: 1.6rem;
+}
+
+.btn-2 {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  margin-top: 80px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 100px;
+}
+
+.card {
+  background-color: #424342a2;
+  padding: -5px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  height: 200px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.about2-left p {
+  line-height: 30px;
+}
+.about2-left h4 {
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+.about2-left h2 {
+  font-size: larger;
+}
